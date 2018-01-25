@@ -4,14 +4,14 @@ Please go through the following code and answer the questions in the correspondi
 
 In python there exists a useful method that returns the kind of object it is called on. It is called type() it works like this.
 
-type("hello")
+print(type("hello"))
 <type 'str'>
 
 'str' stands for string. A string is an alphanumeric collection with an order. They are always contained in "" or ''
 
 I want you to input the following and take the return take a guess what it means and put your response in the google form.
 
-Call type on:
+Call type and print on:
 
 42
 
@@ -75,4 +75,4 @@ print(mp(0:13:2))
 
 Exploration:
 
-Try and write this string backwards. 
+Try and write this string backwards.
