@@ -32,7 +32,7 @@ What happens when you:
 
 print(var1 + var2)
 
-How would you add a space between those Hello and world.
+How would you add a space between those Hello and world. Can you find a second way of doing it?
 
 Go through this process and describe how what happens with this variable reassignment:
 
@@ -72,3 +72,7 @@ print(mp[:3])
 print(mp[7:])
 
 print(mp(0:13:2))
+
+Exploration:
+
+Try and write this string backwards. 
