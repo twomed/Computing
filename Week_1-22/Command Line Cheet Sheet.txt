@@ -2,14 +2,17 @@ In the command line or terminal we have the ability to do a lot of things that w
 
 Vocab:
 Directory - What most people call a folder
-Command - the operation we want to preform
+Root - Where the users files are stored. (Not operating system files)
+Command - The operation we want to preform
 Options or locations we are calling the command on. Denoted below by []
+
 
 So far we have looked at select few commands:
 
 List all files and directories
-in current directory:              ls 
+in current directory:              ls
 Change Directory:                  cd [The directory we want to change into]
 Go up a Directory:                 cd ..
+Go to root directory               cd -
 Make a Directory:                  mkdir [name_of_new_folder]
 Make a file:                       touch [name_of_new_file]
