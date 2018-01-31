@@ -26,7 +26,8 @@ print(name)
 print('wow'*3)
 
 -------------------------------------------------------------------------------
-Your assignment:
+Note that once reassigned the variable name has no access to what is used to be assigned to. This can be very helpful with that are called recursive functions but we have to be sure we only want an endpoint and not all of the steps. %recursive
+
 Take the two variables below an create a new variable named child using a mesh of their two names.
 -------------------------------------------------------------------------------
 husband = 'Andy Sweet'
