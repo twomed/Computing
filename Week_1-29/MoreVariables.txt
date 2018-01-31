@@ -34,4 +34,4 @@ husband = 'Andy Sweet'
 
 wife = 'Nancy Rainwater'
 -------------------------------------------------------------------------------
-Return a screen shot of your terminal into the classroom for todays participation
+Return your python file into the classroom for todays assignment.
