@@ -35,7 +35,7 @@ else:
 
 --------------------------------------------------------------------------------
 
-Now let us look at the case sensitvity. There are built in functions we can call on the 'class' of strings. These are called mathods. More will be revieled on methods and creatign our own when we get to classes. The method we need now is called lower() these methods are called on a string by 'string.lower()' this will return the lowercase of any given carictor in a string. SOme charictors do not have a lower such as numbers, @, or spaces.
+Now let us look at the case sensitivity. There are built in functions we can call on the 'class' of strings. These are called methods. More will be revealed on methods and creating our own when we get to classes. The method we need now is called lower() these methods are called on a string by 'string.lower()' this will return the lowercase of any given character in a string. Some characters do not have a lower such as numbers, @, or spaces.
 
 --------------------------------------------------------------------------------
 
@@ -48,15 +48,15 @@ else:
 
 --------------------------------------------------------------------------------
 
-Now we have some input error anlysis. And a response for the errors. This error response may not be too helpful for a user but hey at least it is not silent. one of the zen of python
+Now we have some input error analysis. And a response for the errors. This error response may not be too helpful for a user but hey at least it is not silent. One of the tenants of the Zen of Python
 
 >>>import this
 
 Assignment:
 
-Create a simple compatability test
+Create a simple compatibility test
 
-If someone passes the first compatibility question then they should get another. Embeded if statements these can get hairy so be carful with your whitespase.
+If someone passes the first compatibility question then they should get another. Embedded if statements these can get hairy so be careful with your whitespace.
 
 --------------------------------------------------------------------------------
 
@@ -67,11 +67,11 @@ if name is not None:
     outdoors = input('Do you like being outside? Y/N')
     if outdoors.lower() == 'y':
         print('Yes, I like the outdoors as well')
-        improving = input('How important is improvng to you. 1-Low, 10-High')
+        improving = input('How important is improving to you. 1-Low, 10-High')
         if int(improving) > 6:
             print('You seem cool')
         else:
-            print('Nobody is perfect. Improving is what I ask')
+            print('Nobody is perfect. But i would rather go up than down')
     else:
         print('Sorry that is incorrect')
 else:
