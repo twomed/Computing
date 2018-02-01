@@ -1,0 +1,30 @@
+NOT TO BE USED YET NOT READY WE WILL GET HERE SOON
+
+
+You will need to following to configure python in linux mint.
+
+
+sudo apt-get update && sudo apt-get -y upgrade
+
+Then once that has run:
+
+
+sudo apt-get install python3.6
+
+The idea here is we want to be using the new python 3.6 and not legacy python
+or python 2.7.
+
+
+echo alias python=python3 >> ~/.bashrc
+
+The run:
+
+source ~/.bashrc
+
+
+
+Test your new python:
+
+python --version
+
+sudo apt-get install python3-pip

@@ -1,0 +1,28 @@
+If and then statements are a cornerstone of logic. In programing they allow our software to take different paths based on some information it is being fed. I believe it is good to look at if then statements as trees with branches. When nutrients (information) move up the tree they are analyzed and if they have specific qualities they go up a branch versus staying in the trunk. 
+
+                                   \  /
+                                    |/
+                                    ||
+                                    ||
+
+In python these if then statements look like the following
+
+if cond == met:
+    something.is.done
+
+Notice the == sign. This is to distinguish between the assignment of a value to a variable and testing if a variable is a certain value. Similarly greater than, greater than or equal to, less than, less than or equal to, and does not equal:  >, >=, <, <=, != respectively.  When looking at the first line of an if statement it should be noted that conditions are either met or not met. There is no gray area here. These results are called Booleans. They only have two cases True or False. The other thing to notice about the if statement is that the something.is.done is indented(4 spaces exactly) this is for readability and is something that make python unique. It is important to note that nothing indented is run unless the statement above it is satisfied.
+
+Copy and paste the following program into your test.py and run  it. Analyze the code as you go through the program in the terminal.
+-------------------------------------------------------------------------------
+color = input('What is your favorite color:')
+
+if color == 'Blue':
+    print('Fine, off you go.')
+
+
+-------------------------------------------------------------------------------
+Note:The above program includes a built in function in python that takes a string a user inputs is the terminal and in this case stores it in the variable color.
+
+Test some colors. What are some of the issues with this program? The most notable is that if 'Blue' is not the users favorite color than nothing happens. the second is that this program is case sensitive. Meaning that 'Blue' is different than 'blue'.
+
+Let us look at the first

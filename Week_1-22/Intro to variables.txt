@@ -4,14 +4,14 @@ Please go through the following code and answer the questions in the correspondi
 
 In python there exists a useful method that returns the kind of object it is called on. It is called type() it works like this.
 
-type("hello")
+print(type("hello"))
 <type 'str'>
 
 'str' stands for string. A string is an alphanumeric collection with an order. They are always contained in "" or ''
 
 I want you to input the following and take the return take a guess what it means and put your response in the google form.
 
-Call type on:
+Call type and print on:
 
 42
 
@@ -21,6 +21,7 @@ Call type on:
 
 {'name': 'Sir Lancelot', 'quest': 'seek the holy grail', 'Favorite color': 'Blue no wait ... AHH'}
 
+------------------------------------------------------------------------------
 Variables:
 
 Variables cover quite a bit of ground in python. In best practice a variables name gives an idea of what the variable is assigned to. For examples lst_names might be a good name for a list of names.
@@ -32,7 +33,7 @@ What happens when you:
 
 print(var1 + var2)
 
-How would you add a space between those Hello and world.
+How would you add a space between those Hello and world. Can you find a second way of doing it?
 
 Go through this process and describe how what happens with this variable reassignment:
 
@@ -45,13 +46,15 @@ a = 5
 print(a)
 print(b)
 
-All of the common math operators are in the mix in python (many more in you involve the packages math, sympy, numpy, matlab...)
+All of the common math operators are in the mix in python (many more if you involve the packages math, sympy, numpy, matlab...)
 + plus
 - minus
 * multiply
 / divide
 
 Try all operations between a integer and a string in a print function what do you notice about the outputs.
+
+------------------------------------------------------------------------------
 
 Indexing:
 
@@ -72,3 +75,7 @@ print(mp[:3])
 print(mp[7:])
 
 print(mp(0:13:2))
+
+Exploration:
+
+Try and write this string backwards.
