@@ -1,4 +1,4 @@
-If and then statements are a cornerstone of logic. In programing they allow our software to take different paths based on some information it is being fed. I believe it is good to look at if then statements as trees with branches. When nutrients (information) move up the tree they are analyzed and if they have specific qualities they go up a branch versus staying in the trunk. 
+If and then statements are a cornerstone of logic. In programing they allow our software to take different paths based on some information it is being fed. I believe it is good to look at if then statements as trees with branches. When nutrients (information) move up the tree they are analyzed and if they have specific qualities they go up a branch versus staying in the trunk.
 
                                    \  /
                                     |/
@@ -25,4 +25,54 @@ Note:The above program includes a built in function in python that takes a strin
 
 Test some colors. What are some of the issues with this program? The most notable is that if 'Blue' is not the users favorite color than nothing happens. the second is that this program is case sensitive. Meaning that 'Blue' is different than 'blue'.
 
-Let us look at the first
+Let us look at the first, this is where the branches of our tree gets interesting. We have an else function as well. It lies at the same level of the if.
+--------------------------------------------------------------------------------
+
+if color == 'Blue':
+    print('Fine, off you go.')
+else:
+    print('OFF THE CLIFF')
+
+--------------------------------------------------------------------------------
+
+Now let us look at the case sensitvity. There are built in functions we can call on the 'class' of strings. These are called mathods. More will be revieled on methods and creatign our own when we get to classes. The method we need now is called lower() these methods are called on a string by 'string.lower()' this will return the lowercase of any given carictor in a string. SOme charictors do not have a lower such as numbers, @, or spaces.
+
+--------------------------------------------------------------------------------
+
+color = input('What is your favorite color:')
+
+if color.lower() == 'blue':
+    print('Fine, off you go.')
+else:
+    print('OFF THE CLIFF')
+
+--------------------------------------------------------------------------------
+
+Now we have some input error anlysis. And a response for the errors. This error response may not be too helpful for a user but hey at least it is not silent. one of the zen of python
+
+>>>import this
+
+Assignment:
+
+Create a simple compatability test
+
+If someone passes the first compatibility question then they should get another. Embeded if statements these can get hairy so be carful with your whitespase.
+
+--------------------------------------------------------------------------------
+
+name = input('What is your name?')
+
+if name is not None:
+    print('Good you have a name')
+    outdoors = input('Do you like being outside? Y/N')
+    if outdoors.lower() == 'y':
+        print('Yes, I like the outdoors as well')
+        improving = input('How important is improvng to you. 1-Low, 10-High')
+        if int(improving) > 6:
+            print('You seem cool')
+        else:
+            print('Nobody is perfect. Improving is what I ask')
+    else:
+        print('Sorry that is incorrect')
+else:
+    print('Sorry I do not trust people without names')
