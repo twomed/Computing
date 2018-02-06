@@ -1,0 +1,16 @@
+To start this week off we are going to download Atom text editor. Atom has chosen the moniker of "A hackable text editor for the 21st Century". Atom is open source from the people of github and has some amazing advantages That still lets us have the freedom of working outside of an IDE(Integrated Development Environment).
+
+We will start by downloading atom. This can be done in the software manager. Op the menu and search software. Once in the software manager search atom.
+
+Once you have installed atom you will be able to modify its behavior.
+
+Go into preferences CTRL + , Go to editor and change the default tab length to python's whitespace length.
+Show invisables and indent guide
+scroll past end
+
+Next under install download:
+file-icons
+platformio-ide-terminal
+
+
+For now this will Work well.
