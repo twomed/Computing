@@ -1,0 +1,30 @@
+Functions are the building blocks of projects. Similar to mathematics they take inputs and produce outputs. Unlike mathematics there is no worrying about one-to-one or onto. Functions can take many functions variables or no variable. According to Allen Downey their are two types of functions; fruitful functions "return" a value, void functions do not. Void functions may print an output of move graphics but they are the end they are not to pass into another function.
+
+That concept brings us the UNIX philosophy. Two of the tenants are:
+
+1. Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new "features".
+
+2. Expect the output of every program to become the input to another, as yet unknown, program. Don't clutter output with extraneous information.
+
+We will be trying to build our programs as small pieces that plug into each other. This allows us to change things easily and because we just change on piece of the functionality not some interconnected function that does many things. Think about these functions as as little pieces of a big machine. You want them to work independently and they and do their job well. If they fail to do their task it is obvious where the ball was dropped and easy to fix it.
+
+Lets take a look at one:
+
+--------------------------------------------------------------------------------
+
+#example of a void function
+def hello_world():
+    print('Hello World')
+
+#example of fruitful functions
+def mult(a, b):
+    val = a * b
+    return val
+
+--------------------------------------------------------------------------------
+
+While the second function not print anything to the console it can quickly do so if we call print on the function mult with two function values.
+
+In the exercise of creating a pyg latin translator we need to call this function on a string function variable.
+
+Today's goal is to create a single world pyg latin translator.
