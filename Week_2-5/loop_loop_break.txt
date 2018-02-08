@@ -1,0 +1,58 @@
+The major way that computers beat out humans is they do not seem to get bored doing a task over and over again. Python is very good at going through data and sorting, modifying, verifying, and many more ings. Loops do a task over and over again until they have ran through what they are iterating over. To better understand loops let up look at this example:
+
+--------------------------------------------------------------------------------
+lst = [1, 2, 3, 4, 5]
+for elm in list:
+    print(elm)
+
+--------------------------------------------------------------------------------
+
+As you can see this just prints all of the elements in a list. The below loop will produce the exact same outcome with a different type of loop.
+
+--------------------------------------------------------------------------------
+
+i = 0
+while i <= 5:
+    print(i)
+    i += 1
+
+--------------------------------------------------------------------------------
+
+Each of these loops have there own strengths. The for is nice to go through elements of data. While loops are nice because they have a dynamic quality where they end when a value is reached.
+
+--------------------------------------------------------------------------------
+
+import random
+num = random.randint(1,10)
+guess = int(input('Guess my number:'))
+while guess != num:
+    guess = int(input('Guess again!'))
+
+print('YOU GOT IT!')
+
+-------------------------------------------------------------------------------
+
+A for loop is a good option for checking elements in a object. Sting, dictionary, list. Let us look at an example of this.
+
+ -------------------------------------------------------------------------------
+
+ lst = [3, 6, 9, 12, 15, 18, 21]
+ time_lst = []
+ for hour in lst:
+     if hour == 12:
+         noon = str(hour) + ' PM'
+         time_lst.append(noon)
+     elif hour > 12:
+         hour = hour - 12
+         PM = str(hour) + ' PM'
+         time_lst.append(PM)
+     else:
+         AM = str(hour) + ' AM'
+         time_lst.append(AM)
+ print(time_lst)
+
+ -------------------------------------------------------------------------------
+
+
+Definitions:
+Iterate: Each repetition of the process is also called an "iteration", and the results of one iteration are used as the starting point for the next iteration. In the context of mathematics or computer science, iteration (along with the related technique of recursion) is a standard building block of algorithms.
