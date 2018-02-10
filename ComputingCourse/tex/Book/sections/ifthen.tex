@@ -1,0 +1,70 @@
+\documentclass[../main.tex]{subfiles}
+
+\lfoot{If Then Statments}
+
+\begin{document}
+If and then statements are a cornerstone of logic. In programing they allow our software to take different paths based on some information it is being fed. I believe it is good to look at if then statements as trees with branches. When nutrients (information) move up the tree they are analyzed and if they have specific qualities they go up a branch versus staying in the trunk.\\
+%TODO add picture of tree
+\\
+\begin{verbatim}
+if cond == met:
+    something.is.done
+\end{verbatim}
+Notice the == sign. This is to distinguish between the assignment of a value to a variable and testing if a variable is a certain value. Similarly greater than, greater than or equal to, less than, less than or equal to, and does not equal:  >, >=, <, <=, != respectively.  When looking at the first line of an if statement it should be noted that conditions are either met or not met. There is no gray area here. These results are called Booleans. They only have two cases True or False. The other thing to notice about the if statement is that the something.is.done is indented(4 spaces exactly) this is for readability and is something that make python unique. It is important to note that nothing indented is run unless the statement above it is satisfied.\\
+\\
+Copy and paste the following program into your test.py and run  it. Analyze the code as you go through the program in the terminal.\\
+\begin{lstlisting}
+color = input('What is your favorite color:')
+
+if color == 'Blue':
+    print('Fine, off you go.')
+\end{lstlisting}
+%TODO add note env
+Note:The above program includes a built in function in python that takes a string a user inputs is the terminal and in this case stores it in the variable color.\\
+\\
+Test some colors. What are some of the issues with this program? The most notable is that if 'Blue' is not the users favorite color than nothing happens. the second is that this program is case sensitive. Meaning that 'Blue' is different than 'blue'.\\
+\\
+Let us look at the first, this is where the branches of our tree gets interesting. We have an else function as well. It lies at the same level of the if.\\
+\begin{lstlisting}
+if color == 'Blue':
+    print('Fine, off you go.')
+else:
+    print('OFF THE CLIFF')
+\end{lstlisting}
+Now let us look at the case sensitivity. There are built in functions we can call on the 'class' of strings. These are called methods. More will be revealed on methods and creating our own when we get to classes. The method we need now is called lower() these methods are called on a string by 'string.lower()' this will return the lowercase of any given character in a string. Some characters do not have a lower such as numbers, @, or spaces.
+\begin{lstlisting}
+color = input('What is your favorite color:')
+
+if color.lower() == 'blue':
+    print('Fine, off you go.')
+else:
+    print('OFF THE CLIFF')
+\end{lstlisting}
+Now we have some input error analysis. And a response for the errors. This error response may not be too helpful for a user but hey at least it is not silent. One of the tenants of the Zen of Python. Add the following into a blank python file and run it.
+\begin{lstlisting}
+import this
+\end{lstlisting}
+\textbf{Assignment:}
+Create a simple compatibility test.\\
+\\
+If someone passes the first compatibility question then they should get another. Embedded if statements these can get hairy so be careful with your whitespace.\\
+\begin{lstlisting}[caption=Example]
+name = input('What is your name?')
+
+if name is not None:
+    print('Good you have a name')
+    outdoors = input('Do you like being outside? Y/N')
+    if outdoors.lower() == 'y':
+        print('Yes, I like the outdoors as well')
+        improving = input('How important is improving to you. 1-Low, 10-High')
+        if int(improving) > 6:
+            print('You seem cool')
+        else:
+            print('Nobody is perfect. But i would rather go up than down')
+    else:
+        print('Sorry that is incorrect')
+else:
+    print('Sorry I do not trust people without names')
+\end{lstlisting}
+\newpage
+\end{document}

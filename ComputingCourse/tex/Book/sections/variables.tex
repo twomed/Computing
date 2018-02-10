@@ -1,0 +1,42 @@
+\documentclass[../main.tex]{subfiles}
+
+\lfoot{Variables}
+\begin{document}
+I am going to start out by introducing the concept of variable assignment. This is how variables get the data they are "pointed" to.
+\begin{lstlisting}
+a=2
+b=3
+c=a*b
+print(c)
+\end{lstlisting}
+Once again we can run the type on variable and the return will by the type of the data they are assigned.\\
+\\
+This is fine if we want to use python as a calculator. But let us take a closer look at strings.
+\begin{lstlisting}
+name = 'Travis Miller'
+
+first = name[0:6]
+
+last = name[7:]
+
+middle = 'Neal'
+
+name = first + ' ' + middle + ' ' + last
+
+print(name)
+
+print('wow'*3)
+\end{lstlisting}
+Note that once reassigned the variable name has no access to what is used to be assigned to. This can be very helpful with that are called recursive functions but we have to be sure we only want an endpoint and not all of the steps. \\
+\\
+Take the two variables below an create a new variable named child using a mesh of their two names.
+\\
+{\bf Assignment:}
+I have a friend who is names Adrienne Sweetwater Her parents are Nancy Rainwater and Andy Sweet. Please create a name out of the to variables bellow feel free to add your own variable for a first name. Note: the child's name does not have to be Adrienne.
+\begin{lstlisting}
+husband = 'Andy Sweet'
+
+wife = 'Nancy Rainwater'
+\end{lstlisting}
+\newpage
+\end{document}

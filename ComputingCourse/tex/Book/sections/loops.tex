@@ -1,0 +1,62 @@
+\documentclass[../main.tex]{subfiles}
+
+\lfoot{Loops}
+\begin{document}
+
+The major way that computers beat out humans is they do not seem to get bored doing a task over and over again. Python is very good at going through data and sorting, modifying, verifying, and many more ings. Loops do a task over and over again until they have ran through what they are iterating over. To better understand loops let up look at this example:
+\begin{lstlisting}[caption=For Loop]
+lst = [1, 2, 3, 4, 5]
+for elm in list:
+    print(elm)
+\end{lstlisting}
+As you can see this just prints all of the elements in a list. The below loop will produce the exact same outcome with a different type of loop.
+\begin{lstlisting}
+i = 0
+while i <= 5:
+    print(i)
+    i += 1
+\end{lstlisting}
+Each of these loops have there own strengths. The for is nice to go through elements of data. While loops are nice because they have a dynamic quality where they end when a value is reached.
+\begin{lstlisting}
+import random
+num = random.randint(1,10)
+guess = int(input('Guess my number:'))
+while guess != num:
+    guess = int(input('Guess again!'))
+
+print('YOU GOT IT!')
+\end{lstlisting}
+A for loop is a good option for checking elements in a object. Sting, dictionary, list. Let us look at an example of this.
+\begin{lstlisting}
+lst = [3, 6, 9, 12, 15, 18, 21]
+time_lst = []
+for hour in lst:
+    if hour == 12:
+        noon = str(hour) + ' PM'
+        time_lst.append(noon)
+    elif hour > 12:
+        hour = hour - 12
+        PM = str(hour) + ' PM'
+        time_lst.append(PM)
+    else:
+        AM = str(hour) + ' AM'
+        time_lst.append(AM)
+print(time_lst)
+\end{lstlisting}
+\subsection*{Assignment:}
+
+Create a countdown timer that takes an input from the console and produces a printed bomblike countdown. You will need to use the sleep method. Run the example below to see how this method works.
+\begin{lstlisting}
+import time
+print("1 and ...")
+time.sleep(1)
+print("2 and ...")
+time.sleep(3)
+print("5")
+\end{lstlisting}
+\subsection*{Definitions:}
+Iterate: Each repetition of the process is also called an "iteration", and the results of one iteration are used as the starting point for the next iteration. In the context of mathematics or computer science, iteration (along with the
+related technique of recursion) is a standard building block of algorithms.
+
+\newpage
+\end{document}
