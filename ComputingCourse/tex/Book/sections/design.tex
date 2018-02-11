@@ -1,0 +1,42 @@
+\documentclass[..main.tex]{subfiles}
+
+\lfoot{Program Design}
+
+\begin{document}
+In this course we will be talking about problem solving. Much in the world of problem solving life hands you a problem and you have to solve it. So far in my life computer science has not been the answer to any problem that has landed in any lap. Problem solving in computer science starts with picking a problem. Once the problem has been identified we then can focus on finding a solution. Once a procedure has been identified then comes the task or writing the code that executes the steps outlined in the solution. \\
+\\
+First thing to do is ask who is this program for and what do they want. When we are starting coding these coding projects are often for ourselves. This is not selfish but natural as we need to improve before anyone else will want what we can do. \\
+\\
+This class's first project will be for the inquisitive reader. We will be creating a program that gathers data from .txt files. Mine (you cannot steal it) will be looking at the number of words over the length of 10 in songs it is given. \\
+\\
+Now we have a problem and an desired results. Songs in numbers out. Now the path from Start to Finish is up to us. This is where we draw. \\
+\\
+\begin{center}
+\begin{tikzpicture}[node distance=1.5cm]
+
+\node (start) [startstop] {Songs};
+\node (import) [startstop, below of=start] {Import .txt file};
+\node (strspl) [startstop, below of=import] {Split the string. Place in list};
+\node (itlist) [startstop, below of=strspl] {Iterate over list};
+\node (noth) [startstop, below right=of itlist] {Do Nothing};
+\node (count) [startstop, below of=itlist, node distance=2cm] {Add to Counter};
+\node (return) [startstop, below of=count] {Return to User};
+\draw [arrow] (star) -- (import);
+\draw [arrow] (import) -- (strspl);
+\draw [arrow] (strspl) -- (itlist);
+\draw [arrow] (itlist) -- node[anchor=east] {If word>10} (count);
+\draw [arrow] (itlist) -- node[anchor=north, rotate= -27] {word<10} (noth);
+\draw [arrow] (count) -- (return);
+\end{tikzpicture}
+\end{center}
+
+\\
+\noindent Once we have our diagram we can start looking at what processes we know how to achieve. It is rare if we do not have to learn something to solve a problem. So do not be worried if there are massive differences in your skillset and what will need to be done in order to solve this problem. \\
+\\
+It is often smart to start writing the code for the aspect of the project we know how to achieve. The UNIX philosophy tells us to write code that does one thing well and to make them pluggable into other processes of our software. While this might be a little overzealous in counting words that are over 10 characters in songs it translates to that we should be able to tell which process the sections of code we are writing are working on.\\
+\\
+\textbf{Assignment:}
+\\
+\noindent Create a problem or question where the data that needs to be analyzed is text. Come up with a goal when the program is run what should be extracted from the text. Then Draw a diagram with the steps it woudl take to get there.
+\newpage
+\end{document}
