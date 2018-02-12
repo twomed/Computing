@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1518320243 "main.tex" "main.pdf" "main" 1518320245
+["pdflatex"] 1518468868 "main.tex" "main.pdf" "main" 1518470323
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc" 1254269485 2882 c3e71e002ade88b8fd1e94dd67df9b91 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc" 1254269485 2458 3b98c7cf30777b7803f362f19b1b8e68 ""
@@ -145,15 +145,15 @@
   "/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1432479641 1764542 91654ba72bdb667e84ea24f076ae16d8 ""
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1432479681 3849859 39a7d258195bde2394e244961601fbc5 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "main.aux" 1518320245 153 f0c696756b94df25390c7092919abbdc ""
+  "main.aux" 1518468870 153 f0c696756b94df25390c7092919abbdc ""
   "main.tex" 1518311311 2600 90be00b3d1c57d3b83058ff73baf2ef5 ""
-  "sections/design.tex" 1518320237 3107 f98d18d8cf99345df9c0b7ffc63da968 ""
-  "sections/functionintro.tex" 1518240831 1971 11bf43279fc1dd4fa6de47b2922fa001 ""
-  "sections/ifthen.tex" 1518242576 4114 059a9bb99c9277d29075f4facf7e5b15 ""
+  "sections/design.tex" 1518468615 3295 c4cee60c1fdf270622cf187eebe2f073 ""
+  "sections/functionintro.tex" 1518470320 1971 11bf43279fc1dd4fa6de47b2922fa001 ""
+  "sections/ifthen.tex" 1518468863 4114 d72a9dfd611bfe243811afffe4974043 ""
   "sections/loops.tex" 1518240776 2356 dfc1d7142274b28da45d85dc7062bfe0 ""
   "sections/variables.tex" 1518241369 1380 1dcc80429c235ff60feb2db8744b3ff2 ""
   "subfiles.sty" 1518260564 654 f83c66f1a1b46b179833a4f16fc0d88a ""
   (generated)
   "main.pdf"
-  "main.log"
   "main.aux"
+  "main.log"
