@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 FEB 2018 13:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 FEB 2018 21:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -991,16 +991,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--28
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 47--51
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--51
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
-[4]) (./sections/loops.tex [5] [6]) (./sections/design.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+[4]
+
+./sections/ifthen.tex:75: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 \textbf
+            {Assignment:}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--79
+
+ []
+
+[5]) (./sections/loops.tex [6] [7]) (./sections/design.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--14
 
  []
@@ -1086,7 +1120,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--41
 
  []
 
-[7] [8]) (./sections/functionintro.tex
+[8] [9]) (./sections/functionintro.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
  []
@@ -1101,20 +1135,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--30
 
  []
 
-[9]) (./main.aux) ) 
+[10]) (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 17054 strings out of 493089
- 319651 string characters out of 6134842
- 502444 words of memory out of 5000000
- 20190 multiletter control sequences out of 15000+600000
+ 17071 strings out of 493089
+ 319826 string characters out of 6134842
+ 528444 words of memory out of 5000000
+ 20207 multiletter control sequences out of 15000+600000
  33199 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,56p,799b,1796s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (9 pages, 87466 bytes).
+Output written on main.pdf (10 pages, 90374 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 57 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

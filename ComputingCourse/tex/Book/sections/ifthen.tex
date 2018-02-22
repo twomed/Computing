@@ -40,10 +40,38 @@ if color.lower() == 'blue':
 else:
     print('OFF THE CLIFF')
 \end{lstlisting}
-Now we have some input error analysis. And a response for the errors. This error response may not be too helpful for a user but hey at least it is not silent. One of the tenants of the Zen of Python. Add the following into a blank python file and run it.
+Now we have some input error analysis. And a response for the errors. This error response may not be too helpful for a user but hey at least it is not silent. One of the tenants of the Zen of Python. Add the following into a blank python file and run it.\\
 \begin{lstlisting}
 import this
 \end{lstlisting}
+Sometimes we want to check if a value does is more than one specific case. There are a few ways of doing this. The first method is to just add the or statement to extend the boolean to return true for more values.\\
+\begin{lstlisting}
+if ans == 'yes' or ans == 'yea':
+    print('Well let's do it!')
+\end{lstlisting}
+The next way to do this works for checking is an element is in a list of objects.\\
+\begin{lstlisting}
+fresh_fruit = ['banana', 'loganberries', 'passion fruit', 'mangos in syrup', 'oranges']
+
+if ans in fresh_fruit:
+    print('We've done {} already.' .format(elm))
+
+\end{lstlisting}
+
+Lastly what if we want more than one outcome (branch) dependent upon the expression given. \\
+\begin{lstlisting}
+fresh_fruit = ['banana', 'loganberries', 'passion fruit', 'mangos in syrup', 'oranges']
+
+if ans in fresh_fruit:
+    print('We've done %s already.' % elm)
+elif ans == 'raspberries':
+    print('Release the Tiger!')
+elif ans == 'peach':
+        print('Release the crocodile!')
+elif ans == 'pointed stick':
+            print('Shutup!')
+\end{lstlisting}
+\\
 \textbf{Assignment:}
 Create a simple compatibility test.\\
 \\
