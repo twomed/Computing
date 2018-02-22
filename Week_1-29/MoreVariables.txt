@@ -1,5 +1,5 @@
 Assignment 1/31
-I am going to start out by introducing the concept of variable assignment. This is how variables get the data they are "pointed" to.
+I am going to start out by introducing the concept of variable assignment. This is how variables get the data they are "pointed" to.  
 -------------------------------------------------------------------------------
 a=2
 b=3
