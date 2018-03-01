@@ -1,0 +1,47 @@
+\documentclass[../main.tex]{subfiles}
+\lfoot{Dictionaries}
+\begin{document}
+
+Dictionaries in python add more than objects than lists out of the box. If we were looking at members of the class a list of names would suffice at the most basic level but what if we wanted to compare something unique to each of them such as the town they live in. We would have to create a list and then map it to a list of towns. Doable but dictionaries make this a quick task.\\
+\\
+Dictionary object have two differing roles. Keys and Values. While both keys and values can be many types of python objects we will be looking mainly at keys which are strings. \\
+\begin{verbatim}
+    kids_dict = {'Bowman': 7, 'Gus': 4, 'Maya': 9, 'Scarlet': 3}
+\end{verbatim}
+In this dictionary we have the 'Keys' (Bowman, Gus, Maya, Scarlet) and the values (7, 4, 9, 3). This dictionary has 4 elements noted by the three commas. There are many built in functions I will show you some and explain them below.\\
+\\
+\begin{lstlisting}
+    kids_dict = {'Bowman': 7, 'Gus': 4, 'Maya': 8 'Scarlet': 3}
+
+    del kids_dict['Maya']
+    kids_dict['Maya'] = 9
+    lst_names = kids_dict.keys()
+    lst_ages = kids_dict.values()
+    lst_all = kids_dict.items()
+
+\end{lstlisting}
+Line 3 has a method of deleting an element of the dictionary. Line 4 adds a new element to dictionary. Line 5 and 6 use built in methods to pull out the keys and values. When they are returned from the keys() or values() method they are elements in a list. the Method items() returns a list of tuples ok (key, value ) for each element in the dictionary. \\
+\\
+That is all well and good but what if we are not given the dictionary and do not want to add elements one at a time. luckily we have the dict() constructor. It works in various ways. Examples are below:
+
+\begin{lstlisting}
+    key_lst = ['one', 'two', 'three']
+    value_lst = [1,2,3]
+    a = dict(one=1, two=2, three=3)
+    b = {'one': 1, 'two': 2, 'three': 3}
+    c = dict(zip(key_lst, value_list))
+    d = dict([('two', 2), ('one', 1), ('three', 3)])
+    e = dict({'three': 3, 'one': 1, 'two': 2})
+\end{lstlisting}
+All of these will retuen the same dictionary.
+\section{Assignment:}
+\begin{itemize}
+    \item import \texttt{mt\_towns} from elivation.py and use it to find all of the towns that have a greater elevation than Browning.
+    \item Create a function that takes a given town name and returns all of the towns with a greater elevation.
+    \item Extra: Create a function that takes a town name and returns all of the towns and their elivations that are within a 50 ft margin of that town.
+\end{itemize}
+
+\newpage
+
+
+\end{document}

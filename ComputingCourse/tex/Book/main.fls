@@ -256,7 +256,15 @@ INPUT sections/design.tex
 INPUT sections/design.tex
 INPUT sections/functionintro.tex
 INPUT sections/functionintro.tex
+INPUT sections/dictionary.tex
+INPUT sections/dictionary.tex
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tex-gyre/ts1qhv.fd
+INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/tex-gyre/ts1qhv.fd
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/tex-gyre/ts1-qhvr.tfm
+INPUT sections/objects.tex
+INPUT sections/objects.tex
 INPUT main.aux
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc

@@ -1,0 +1,43 @@
+\documentclass[../main.tex]{subfiles}
+
+\lfoot{Objects}
+
+\begin{document}
+So far we have discussed some of the many types of object that exist in python. Lets look at some of them(by no means an exhaustive list):\\
+\\
+\begin{minipage}[t]{0.5\linewidth}
+    \begin{itemize}
+        \item Strings
+        \item Numbers (integers, float, complex)
+        \item Tuples (imutable)
+    \end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.5\linewidth}
+    \begin{itemize}
+        \item Lists (mutable)
+        \item Dictionaries (mutable)
+        \item Functions
+    \end{itemize}
+\end{minipage}
+
+\vspace{.5cm}
+Side-note: Variables\\
+Variables are not objects themselves. Generally when people are speaking by the book they say a given variable points to an object. Though often we talk about a variable type. So generally variables assume the type they are pointing towards.\\
+\\
+How actions occure on the objects has been seen in a couple of different ways. The first is a function(itself an object) it is called with the object as a parameter. These functions can be complex or simple but the built in functions tend to work on most types of objects.\\
+\begin{verbatim}
+>>>string = 'spam'
+>>>len(string)
+4
+\end{verbatim}
+Other actions occur on objects and tend to be more specific than the functions above. These methods are called in the following manor and belong to a specific type of object. Such as the split method we called on strings.\\
+\begin{verbatim}
+str = 'We are the knights who say nee'
+str_lst = str.split()
+print(str_lst)
+
+['We', 'are', 'the', 'knights', 'who', 'say', 'nee']
+\end{verbatim}
+One of the best things about python that allows the
+\end{document}

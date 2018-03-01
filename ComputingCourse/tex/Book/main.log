@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 FEB 2018 21:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 MAR 2018 10:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -850,25 +850,25 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 97.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 98.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 97.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 98.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 ) (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1135,20 +1135,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--30
 
  []
 
-[10]) (./main.aux) ) 
+[10]) (./sections/dictionary.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
+
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+qhv on input line 39.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tex-gyre/ts1qhv.fd
+File: ts1qhv.fd 2009/09/25 v1.2 font definition file for TS1/qhv
+) [11] [12]) (./sections/objects.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--23
+
+ []
+
+
+Overfull \hbox (2.02574pt too wide) in paragraph at lines 6--23
+[]  [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+) [13] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 17071 strings out of 493089
- 319826 string characters out of 6134842
+ 17123 strings out of 493089
+ 320555 string characters out of 6134842
  528444 words of memory out of 5000000
- 20207 multiletter control sequences out of 15000+600000
- 33199 words of font info for 29 fonts, out of 8000000 for 9000
+ 20249 multiletter control sequences out of 15000+600000
+ 33565 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,56p,799b,1796s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (10 pages, 90374 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on main.pdf (13 pages, 96626 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
