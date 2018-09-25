@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 MAR 2018 10:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 SEP 2018 11:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1126,16 +1126,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--15
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--30
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--30
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
-[10]) (./sections/dictionary.tex
+[10]
+LaTeX Font Info:    Try loading font information for TS1+qhv on input line 64.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/tex-gyre/ts1qhv.fd
+File: ts1qhv.fd 2009/09/25 v1.2 font definition file for TS1/qhv
+) [11]) (./sections/dictionary.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--8
 
  []
@@ -1160,10 +1164,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--26
 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+qhv on input line 39.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tex-gyre/ts1qhv.fd
-File: ts1qhv.fd 2009/09/25 v1.2 font definition file for TS1/qhv
-) [11] [12]) (./sections/objects.tex
+[12] [13]) (./sections/objects.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--23
 
  []
@@ -1188,20 +1189,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-) [13] (./main.aux) ) 
+) [14] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 17123 strings out of 493089
- 320555 string characters out of 6134842
+ 17130 strings out of 493089
+ 320638 string characters out of 6134842
  528444 words of memory out of 5000000
- 20249 multiletter control sequences out of 15000+600000
+ 20256 multiletter control sequences out of 15000+600000
  33565 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,56p,799b,1796s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (13 pages, 96626 bytes).
+Output written on main.pdf (14 pages, 99263 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

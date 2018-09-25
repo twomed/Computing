@@ -6,7 +6,7 @@
 The major way that computers beat out humans is they do not seem to get bored doing a task over and over again. Python is very good at going through data and sorting, modifying, verifying, and many more ings. Loops do a task over and over again until they have ran through what they are iterating over. To better understand loops let up look at this example:
 \begin{lstlisting}[caption=For Loop]
 lst = [1, 2, 3, 4, 5]
-for elm in list:
+for elm in lst:
     print(elm)
 \end{lstlisting}
 As you can see this just prints all of the elements in a list. The below loop will produce the exact same outcome with a different type of loop.
@@ -16,7 +16,7 @@ while i <= 5:
     print(i)
     i += 1
 \end{lstlisting}
-Each of these loops have there own strengths. The for is nice to go through elements of data. While loops are nice because they have a dynamic quality where they end when a value is reached.
+Each of these loops have there own strengths. The \textbf{for} is nice to go through elements of data. \textbf{While} loops are nice because they have a dynamic quality where they end when a value is reached.
 \begin{lstlisting}
 import random
 num = random.randint(1,10)
@@ -26,7 +26,7 @@ while guess != num:
 
 print('YOU GOT IT!')
 \end{lstlisting}
-A for loop is a good option for checking elements in a object. Sting, dictionary, list. Let us look at an example of this.
+A \textbf{for} loop is a good option for checking elements in a object. Sting, dictionary, list. Let us look at an example of this.
 \begin{lstlisting}
 lst = [3, 6, 9, 12, 15, 18, 21]
 time_lst = []

@@ -9,7 +9,7 @@ That concept brings us the UNIX philosophy. Two of the tenants are:
     \item Expect the output of every program to become the input to another, as yet unknown, program. Don't clutter output with extraneous information.
 \end{enumerate}
 
-We will be trying to build our programs as small pieces that plug into each other. This allows us to change things easily and because we just change on piece of the functionality not some interconnected function that does many things. Think about these functions as as little pieces of a big machine. You want them to work independently and they and do their job well. If they fail to do their task it is obvious where the ball was dropped and easy to fix it.\\
+We will be trying to build our programs as small pieces that plug into each other. This allows us to change things easily, because we just change on piece of the functionality not some interconnected function that does many things. Think about these functions as as little pieces of a big machine. You want them to work independently and they and do their job well. If they fail to do their task it is obvious where the ball was dropped and easy to fix it.\\
 \\
 Lets take a look at one:
 \begin{lstlisting}
@@ -24,9 +24,46 @@ def mult(a, b):
 \end{lstlisting}
 While the second function not print anything to the console it can quickly do so if we call print on the function mult with two function values.\\
 \\
-In the exercise of creating a pyg latin translator we need to call this function on a string function variable.\\
-\\
-Today's goal is to create a single world pyg latin translator.
+\begin{lstlisting}
+def mult(a, b):
+    val = a * b
+    return val
+
+mult(6, 8)
+>>> 48
+\end{lstlisting}
+When we look a little more into functions the beauty of pythonic functions is they can take many types of objects. Let us look at an example that takes a list of names and checks if a given name is in the list.
+\begin{lstlisting}
+def check_name(name_lst, name):
+    if elm in name_lst:
+        return(True)
+    else:
+        return(False)
+
+
+computing = ['preston', 'jolee', 'kim', 'devon', 'driston', 'james']
+
+
+student = input('Login with name:')
+student = student.lower()
+login = False
+while login is False:
+    if check_name(computing, student) is True:
+        login = True
+        print('Login Successful')
+    else:
+        login = False
+        print('Login Failed')
+        student = input('Try Again:')
+
+\end{lstlisting}
+
+Try running this code on your own to see what it will do.
+\section{Assingment}
+\begin{itemize}
+    \item Today's goal is to create a single world pyg latin translator.
+\end{itemize}
+
 
 \newpage
 \end{document}
